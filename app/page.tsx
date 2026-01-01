@@ -39,7 +39,7 @@ export default function Home() {
               Your ultimate guide to regional and small towns – history, attractions, local businesses, and road trip inspiration
             </p>
             <button 
-              className="bg-accent hover:bg-accent/90 text-white font-semibold px-8 py-4 rounded-lg text-lg sm:text-xl transition-colors duration-200 shadow-lg"
+              className="bg-accent hover:bg-accent/90 text-white font-semibold px-8 py-4 rounded-lg text-lg sm:text-xl transition-colors duration-200 shadow-lg transform hover:scale-105"
               aria-label="Explore Towns Coming Soon"
             >
               Explore Towns Coming Soon
