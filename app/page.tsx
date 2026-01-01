@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://aussietowns.info',
   },
+  openGraph: {
+    title: 'Discover Australia\'s Hidden Towns | AussieTowns.info',
+    description: 'Your ultimate guide to regional and small towns across Australia – history, attractions, local businesses, and road trip inspiration.',
+    url: 'https://aussietowns.info',
+    images: [
+      {
+        url: '/og_image.png',
+        width: 1200,
+        height: 630,
+        alt: 'AussieTowns.info - Discover Australia\'s Hidden Towns',
+      },
+    ],
+  },
 }
 
 export default function Home() {

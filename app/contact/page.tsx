@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://aussietowns.info/contact',
   },
+  openGraph: {
+    title: 'Contact Us | AussieTowns.info',
+    description: 'Get in touch with AussieTowns.info. Contact us for questions, suggestions, or to report issues about Australian regional towns and travel information.',
+    url: 'https://aussietowns.info/contact',
+    images: [
+      {
+        url: '/og_image.png',
+        width: 1200,
+        height: 630,
+        alt: 'AussieTowns.info - Contact Us',
+      },
+    ],
+  },
 }
 
 export default function Contact() {

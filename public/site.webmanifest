@@ -1,0 +1,21 @@
+{
+  "name": "Aussie Towns Info",
+  "short_name": "AussieTowns",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#fdf40e",
+  "background_color": "#fcf50f",
+  "display": "standalone"
+}

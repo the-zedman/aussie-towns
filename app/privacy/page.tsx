@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://aussietowns.info/privacy',
   },
+  openGraph: {
+    title: 'Privacy Policy | AussieTowns.info',
+    description: 'Privacy policy for AussieTowns.info. Learn how we collect, use, and protect your personal information when you visit our Australian travel guide website.',
+    url: 'https://aussietowns.info/privacy',
+    images: [
+      {
+        url: '/og_image.png',
+        width: 1200,
+        height: 630,
+        alt: 'AussieTowns.info - Privacy Policy',
+      },
+    ],
+  },
 }
 
 export default function Privacy() {
