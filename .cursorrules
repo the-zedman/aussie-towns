@@ -1,0 +1,134 @@
+# Project Rules and Guidelines for aussie-towns
+
+This file contains rules and guidelines that must be followed for all code changes and interactions in this project.
+
+## Language and Locale
+
+- Use **Australian English** for all content, documentation, and user-facing text
+- Dates and times must be displayed in format: **DD/MM/YYYY HH:MM:SS**
+- Currency amounts must be shown with **two decimal places** (e.g., $10.50, not $10.5)
+- Never use Portuguese language
+
+## Code Style and Conventions
+
+- Prefer concise, direct code responses without verbose explanations
+- Provide direct code fixes instead of instructing to check console for debugging
+- Apply suggested changes directly without repeatedly asking for confirmation
+- Do not use old or boring designs - prefer modern, fresh styles
+
+## Development Workflow
+
+- Before executing commands, provide a plan for tasks instead of automatically executing without explicit instruction
+- Do not edit database tables without explicit permission and only after proposed changes have been tested
+- Keep a record of all dependencies and settings for easy migration (relevant for deployment)
+- When working on browser games or web apps, create beautiful and modern UI with best UX practices
+- **Always automatically push changes to GitHub** - never wait to be asked. Push commits immediately after making changes
+
+## Git and Version Control
+
+- Commit messages should be clear and descriptive
+- Follow standard git workflow practices
+- Repository: https://github.com/the-zedman/aussie-towns.git
+- Remote uses SSH: git@github.com:the-zedman/aussie-towns.git
+
+## Testing and Quality
+
+- Test changes before committing when applicable
+- Ensure code is working and tested before suggesting database changes
+- Verify functionality after making changes
+- **Always test TypeScript compilation** - ensure there are zero TypeScript errors before pushing
+- Verify code compiles successfully to prevent TypeScript errors in Vercel deployments
+- Never push code that will cause TypeScript compilation errors
+
+## Communication Style
+
+- Be direct and action-oriented
+- Provide plans when asked or when tasks are complex
+- Avoid unnecessary confirmations - apply changes directly when appropriate
+- Focus on solutions rather than lengthy explanations
+
+## Web Development and Frontend
+
+- **Always build web pages mobile-first** - design and implement the mobile version first, then adapt for desktop
+- Create responsive designs with mobile as the primary target, then enhance for desktop viewports
+- **Optimize all web pages for maximum performance** - pages must load and display hyper-fast with no delays
+- Use performance best practices: code splitting, lazy loading, image optimization, minimal JavaScript bundles
+- Minimise render-blocking resources and ensure fast initial page loads
+- **Automatically add new public pages to sitemap.xml** - whenever a new public-facing page is created, update sitemap.xml immediately
+- Never leave sitemap.xml out of sync with public pages - this should be done automatically without being asked
+
+## Ahrefs SEO Requirements (100% Health Score)
+
+**CRITICAL: All pages must achieve 100% Ahrefs Site Audit Health Score with zero errors. These requirements are mandatory.**
+
+### HTTP Status & Redirects
+
+- All intended pages must return 200 OK status code
+- No 4xx (e.g., 404, 403) or 5xx errors on internal pages
+- No redirect chains longer than 1-2 steps
+- No redirect loops
+- Canonical URLs must not point to redirects
+- All redirects must be proper 301 (permanent)
+
+### Indexability
+
+- No noindex pages included in the XML sitemap
+- No conflicts between noindex tags and canonical tags
+- No important pages blocked by robots.txt
+- All pages in sitemap.xml must be indexable (not noindex)
+
+### Hreflang & International SEO
+
+- All hreflang tags must be valid and bidirectional
+- Hreflang tags must point only to indexable, 200 OK pages
+- No missing or conflicting hreflang annotations on multilingual sites
+
+### Duplicates & Canonicalization
+
+- Exactly one canonical tag per page (never zero, never multiple)
+- No canonical chains (canonical must not point to another canonical)
+- Unique pages must have self-referencing canonical tags
+- Duplicate content must be properly canonicalized to the preferred version
+
+### Linking
+
+- No orphan pages - all important pages must have at least one incoming internal link
+- No broken internal links
+- No broken external links (if flagged as Error in Ahrefs)
+
+### Structure & On-Page Markup
+
+- Exactly one `<title>` tag per page
+- Exactly one H1 tag per page
+- No multiple title or H1 tags on any page
+
+### Security & Performance
+
+- Full HTTPS implementation - no mixed content (HTTP resources on HTTPS pages)
+- No critically low performance scores if performance checks are enabled as Errors
+- All resources (images, CSS, JS) must load over HTTPS
+
+### Additional Best Practices (Zero Warnings)
+
+- Unique, properly length title tags (50-60 characters recommended)
+- Unique meta descriptions present on all pages
+- Logical heading hierarchy (one H1, proper H2-H6 usage)
+- No thin or duplicate content
+- All images must have descriptive alt text and be properly optimized
+- Fast loading times and good Core Web Vitals scores
+- Fully mobile-responsive design (already covered in Web Development section)
+- Valid structured data/schema markup (if used)
+- Logical internal linking with relevant anchor text
+- Correct, conflict-free XML sitemap and robots.txt
+- No excessive parameters or session IDs in URLs
+
+**Note**: Before pushing any changes that affect web pages, verify these requirements are met to maintain 100% Ahrefs Health Score.
+
+## Project-Specific Rules
+
+(Add project-specific rules here as the project develops)
+
+---
+
+**Note**: This file is automatically read by Cursor AI assistant. Update this file to add or modify rules as needed.
+
