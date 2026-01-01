@@ -54,6 +54,7 @@ This file contains rules and guidelines that must be followed for all code chang
 - Minimise render-blocking resources and ensure fast initial page loads
 - **Automatically add new public pages to sitemap.xml** - whenever a new public-facing page is created, update sitemap.xml immediately
 - Never leave sitemap.xml out of sync with public pages - this should be done automatically without being asked
+- **Every web page must always have a footer** - all pages must include the same standard footer component across the entire site for consistency and internal linking
 
 ## Ahrefs SEO Requirements (100% Health Score)
 
