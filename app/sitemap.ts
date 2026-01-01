@@ -1,10 +1,13 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://aussietowns.info'
+  const now = new Date()
+  
   return [
     {
-      url: 'https://aussietowns.info',
-      lastModified: new Date(),
+      url: baseUrl,
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 1,
     },
