@@ -19,10 +19,10 @@ This file contains rules and guidelines that must be followed for all code chang
 ## Development Workflow
 
 - Before executing commands, provide a plan for tasks instead of automatically executing without explicit instruction
+- **Exception: Always automatically push changes to GitHub** - never wait to be asked. Push commits immediately after making changes (this takes precedence over the planning requirement for git pushes)
 - Do not edit database tables without explicit permission and only after proposed changes have been tested
 - Keep a record of all dependencies and settings for easy migration (relevant for deployment)
 - When working on browser games or web apps, create beautiful and modern UI with best UX practices
-- **Always automatically push changes to GitHub** - never wait to be asked. Push commits immediately after making changes
 
 ## Git and Version Control
 
@@ -65,7 +65,7 @@ This file contains rules and guidelines that must be followed for all code chang
 
 - All intended pages must return 200 OK status code
 - No 4xx (e.g., 404, 403) or 5xx errors on internal pages
-- No redirect chains longer than 1-2 steps
+- No redirect chains longer than 2 steps (maximum 2 steps allowed)
 - No redirect loops
 - Canonical URLs must not point to redirects
 - All redirects must be proper 301 (permanent)
@@ -115,7 +115,7 @@ This file contains rules and guidelines that must be followed for all code chang
 - Logical heading hierarchy (one H1, proper H2-H6 usage)
 - No thin or duplicate content
 - All images must have descriptive alt text and be properly optimized
-- Fast loading times and good Core Web Vitals scores
+- Fast loading times and good Core Web Vitals scores (see Core Web Vitals targets in Comprehensive SEO Requirements section: LCP ≤2.5s, INP ≤200ms, CLS ≤0.1)
 - Fully mobile-responsive design (already covered in Web Development section)
 - Valid structured data/schema markup (if used)
 - Logical internal linking with relevant anchor text
@@ -133,7 +133,7 @@ This file contains rules and guidelines that must be followed for all code chang
 - Site must be fully crawlable - no important pages blocked by robots.txt (use only to block duplicates/unnecessary pages)
 - XML sitemap must be submitted and valid - include only indexable 200 OK pages
 - Submit sitemap via Google Search Console and Bing Webmaster Tools
-- All key pages must return 200 OK HTTP status - fix any 4xx/5xx errors, redirect chains (>2 steps), or loops
+- All key pages must return 200 OK HTTP status - fix any 4xx/5xx errors, redirect chains (maximum 2 steps allowed, >2 steps is an error), or loops
 - Use proper redirects: 301 for permanent moves; avoid chains/loops
 - Canonical tags: Exactly one per page; self-referencing on unique pages; resolve duplicates properly
 - Full HTTPS implementation - no mixed content (HTTP resources on HTTPS pages)
