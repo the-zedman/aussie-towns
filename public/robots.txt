@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aussietowns.info/sitemap.xml
+
