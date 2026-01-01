@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://aussietowns.info/sitemap.xml
+Sitemap: https://www.aussietowns.info/sitemap.xml
 
