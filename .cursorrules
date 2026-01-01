@@ -124,6 +124,82 @@ This file contains rules and guidelines that must be followed for all code chang
 
 **Note**: Before pushing any changes that affect web pages, verify these requirements are met to maintain 100% Ahrefs Health Score.
 
+## Comprehensive SEO Requirements (Google & Bing)
+
+**CRITICAL: All web pages must comply with these SEO requirements for maximum rankings potential on Google and Bing. These align with Google's Search Essentials, SEO Starter Guide, Quality Rater Guidelines (E-E-A-T), and Bing Webmaster Guidelines.**
+
+### Technical SEO & Crawlability/Indexability
+
+- Site must be fully crawlable - no important pages blocked by robots.txt (use only to block duplicates/unnecessary pages)
+- XML sitemap must be submitted and valid - include only indexable 200 OK pages
+- Submit sitemap via Google Search Console and Bing Webmaster Tools
+- All key pages must return 200 OK HTTP status - fix any 4xx/5xx errors, redirect chains (>2 steps), or loops
+- Use proper redirects: 301 for permanent moves; avoid chains/loops
+- Canonical tags: Exactly one per page; self-referencing on unique pages; resolve duplicates properly
+- Full HTTPS implementation - no mixed content (HTTP resources on HTTPS pages)
+- Mobile-friendly/responsive design - must pass Google's mobile-friendly test (mobile-first indexing is standard)
+- No interstitials/pop-ups that harm mobile experience
+- Structured data (Schema.org markup): Must be valid and relevant (e.g., Article, FAQ, Product); enhances rich snippets/AI Overviews
+
+### Core Web Vitals & Performance (Critical Ranking Signals)
+
+**Achieve "Good" status at 75th percentile (field data from real users):**
+
+- **Largest Contentful Paint (LCP)**: ≤2.5 seconds (loading performance)
+- **Interaction to Next Paint (INP)**: ≤200 ms (interactivity; replaced FID)
+- **Cumulative Layout Shift (CLS)**: ≤0.1 (visual stability)
+
+- Optimize images/fonts/JS; use modern formats (WebP/AVIF)
+- Minimise render-blocking resources
+- Fast server response times; enable compression/caching
+
+### On-Page SEO & Content Structure
+
+- Unique, descriptive title tag: 50-60 characters, includes primary keyword naturally
+- Meta description: Unique, compelling, ~150-160 characters (improves CTR)
+- Proper heading hierarchy: One H1 per page; logical H2-H6 usage
+- Clean, semantic URLs: Short, descriptive, keyword-relevant (no excessive parameters)
+- Images optimized: Descriptive alt text, proper sizing/formats, lazy loading where appropriate
+- Internal linking: Logical, with relevant anchor text; no orphan pages
+- No cloaking or hidden text/links
+
+### Content Quality & E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
+
+**Especially critical for YMYL topics (Health, Finance, etc.):**
+
+- **Demonstrate Experience**: First-hand knowledge (e.g., personal stories, case studies, "actually used/tested")
+- **Demonstrate Expertise/Authoritativeness**: Author bios with credentials; citations from reputable sources
+- **Demonstrate Trustworthiness**: Accurate info, sources cited, transparency (e.g., about page, contact info, privacy policy); positive reputation/reviews
+- High-quality, helpful content: Original, comprehensive, user-first; satisfies search intent
+- No AI-generated low-value/spam content
+- Topical authority: Build clusters around core topics with depth
+- Updated content: Regularly refresh with current info (Google rewards fresh, accurate content)
+- Avoid manipulation: No keyword stuffing, thin/duplicate content, or spam
+
+### Additional Factors for High Rankings
+
+- Earn high-quality backlinks: From authoritative, relevant sites (major ranking factor on both engines)
+- Positive user signals: Low bounce rates, high engagement/time-on-page (Bing explicitly uses clicks/engagement)
+- Page experience: Easy navigation, readable text, no intrusive ads
+- International/multilingual (if applicable): Proper hreflang tags, bidirectional, pointing to indexable pages
+- Accessibility: Follow WCAG basics (benefits UX and indirect SEO)
+
+### Bing-Specific Optimizations
+
+- Submit site/sitemap to Bing Webmaster Tools; use their keyword research/SEO reports
+- Strong focus on exact-match keywords in titles/anchors (slightly more than Google)
+- Multimedia: High-quality images/videos prominent (Bing is visually driven)
+- Social signals & local: Integrate with Microsoft ecosystem; strong for local searches via Bing Places
+
+### Monitoring & Maintenance
+
+- Monitor via Google Search Console (Core Web Vitals report, indexing issues) and Bing Webmaster Tools
+- Run regular audits, prioritize user satisfaction
+- Build genuine authority over time
+- Ensure pages appear correctly (indexed, no errors) and compete strongly for high rankings
+
+**Note**: Before pushing any changes that affect web pages, verify these SEO requirements are met. These practices ensure pages appear correctly and compete strongly for high rankings on Google and Bing.
+
 ## Project-Specific Rules
 
 (Add project-specific rules here as the project develops)
