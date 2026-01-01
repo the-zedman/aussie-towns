@@ -28,8 +28,6 @@ This file contains rules and guidelines that must be followed for all code chang
 
 - Commit messages should be clear and descriptive
 - Follow standard git workflow practices
-- Repository: https://github.com/the-zedman/aussie-towns.git
-- Remote uses SSH: git@github.com:the-zedman/aussie-towns.git
 
 ## Testing and Quality
 
