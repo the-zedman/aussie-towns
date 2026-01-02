@@ -142,6 +142,25 @@ export default function Privacy() {
       </main>
       
       <Footer />
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: 'Privacy Policy - AussieTowns.info',
+            url: 'https://aussietowns.info/privacy',
+            description: 'Privacy policy for AussieTowns.info. Learn how we collect, use, and protect your personal information.',
+            inLanguage: 'en-AU',
+            about: {
+              '@type': 'Thing',
+              name: 'Privacy Policy',
+            },
+          }),
+        }}
+      />
     </>
   )
 }

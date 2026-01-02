@@ -3,13 +3,13 @@ import Link from 'next/link'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Get in Touch | AussieTowns.info',
-  description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information.',
+  title: 'Contact Us - Get in Touch with AussieTowns.info',
+  description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information. We welcome your feedback.',
   alternates: {
     canonical: 'https://aussietowns.info/contact',
   },
   openGraph: {
-    title: 'Contact Us - Get in Touch | AussieTowns.info',
+    title: 'Contact Us - Get in Touch with AussieTowns.info',
     description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information.',
     url: 'https://aussietowns.info/contact',
     type: 'website',
@@ -96,6 +96,26 @@ export default function Contact() {
       </main>
       
       <Footer />
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ContactPage',
+            name: 'Contact Us - AussieTowns.info',
+            url: 'https://aussietowns.info/contact',
+            description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information.',
+            inLanguage: 'en-AU',
+            mainEntity: {
+              '@type': 'Organization',
+              name: 'AussieTowns.info',
+              url: 'https://aussietowns.info',
+            },
+          }),
+        }}
+      />
     </>
   )
 }

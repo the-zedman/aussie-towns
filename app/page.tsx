@@ -4,13 +4,13 @@ import Footer from './components/Footer'
 
 export const metadata: Metadata = {
   title: 'Discover Australia\'s Hidden Towns | AussieTowns.info',
-  description: 'Your ultimate guide to regional and small towns across Australia – history, attractions, local businesses, and road trip inspiration.',
+  description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, and road trip inspiration for Australian towns.',
   alternates: {
     canonical: 'https://aussietowns.info',
   },
   openGraph: {
     title: 'Discover Australia\'s Hidden Towns | AussieTowns.info',
-    description: 'Your ultimate guide to regional and small towns across Australia – history, attractions, local businesses, and road trip inspiration.',
+    description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, and road trip inspiration.',
     url: 'https://aussietowns.info',
     type: 'website',
     images: [
@@ -99,7 +99,7 @@ export default function Home() {
             '@type': 'WebSite',
             name: 'AussieTowns.info',
             url: 'https://aussietowns.info',
-            description: 'Your ultimate guide to regional and small towns across Australia – history, attractions, local businesses, and road trip inspiration.',
+            description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, and road trip inspiration.',
             inLanguage: 'en-AU',
             potentialAction: {
               '@type': 'SearchAction',
