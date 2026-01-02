@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://aussietowns.info/contact',
   },
   openGraph: {
-    title: 'Contact Us - Get in Touch with AussieTowns.info',
+    title: 'Contact Us - Get in Touch with AussieTowns.info Now',
     description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information.',
     url: 'https://aussietowns.info/contact',
     type: 'website',
