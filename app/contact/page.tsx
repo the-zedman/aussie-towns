@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     title: 'Contact Us - Get in Touch with AussieTowns.info Now',
     description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information.',
     url: 'https://aussietowns.info/contact',
+    siteName: 'AussieTowns.info',
+    locale: 'en_AU',
     type: 'website',
     images: [
       {

@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     title: 'Discover Australia\'s Hidden Towns | AussieTowns.info',
     description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, accommodation, and road trip inspiration.',
     url: 'https://aussietowns.info',
+    siteName: 'AussieTowns.info',
+    locale: 'en_AU',
     type: 'website',
     images: [
       {
