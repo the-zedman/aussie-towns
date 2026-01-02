@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     title: 'Contact Us | AussieTowns.info',
     description: 'Get in touch with AussieTowns.info. Contact us for questions, suggestions, or to report issues about Australian regional towns and travel information.',
     url: 'https://aussietowns.info/contact',
+    type: 'website',
     images: [
       {
         url: '/og_image.png',
@@ -20,6 +21,8 @@ export const metadata: Metadata = {
         alt: 'AussieTowns.info - Contact Us',
       },
     ],
+    // @ts-ignore - og:logo is not in Next.js types but is a valid Open Graph property
+    logo: '/logo.png',
   },
 }
 

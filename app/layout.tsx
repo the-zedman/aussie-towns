@@ -42,6 +42,8 @@ export const metadata: Metadata = {
         alt: 'AussieTowns.info - Discover Australia\'s Hidden Towns',
       },
     ],
+    // @ts-ignore - og:logo is not in Next.js types but is a valid Open Graph property
+    logo: '/logo.png',
   },
   robots: {
     index: true,

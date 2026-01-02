@@ -56,6 +56,7 @@ This file contains rules and guidelines that must be followed for all code chang
 - Never leave sitemap.xml out of sync with public pages - this should be done automatically without being asked
 - **Every web page must always have a footer** - all pages must include the same standard footer component across the entire site for consistency and internal linking
 - **Every web page must include favicon links** - all pages must include favicon code (favicon-96x96.png, favicon.svg, favicon.ico, apple-touch-icon.png, site.webmanifest) and Open Graph image (og_image.png) in metadata
+- **Every web page must include complete Open Graph tags** - all pages must include og:type (website) and og:logo (logo.png) in Open Graph metadata for proper social media sharing
 
 ## Ahrefs SEO Requirements (100% Health Score)
 

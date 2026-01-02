@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     title: 'Discover Australia\'s Hidden Towns | AussieTowns.info',
     description: 'Your ultimate guide to regional and small towns across Australia – history, attractions, local businesses, and road trip inspiration.',
     url: 'https://aussietowns.info',
+    type: 'website',
     images: [
       {
         url: '/og_image.png',
@@ -20,6 +21,8 @@ export const metadata: Metadata = {
         alt: 'AussieTowns.info - Discover Australia\'s Hidden Towns',
       },
     ],
+    // @ts-ignore - og:logo is not in Next.js types but is a valid Open Graph property
+    logo: '/logo.png',
   },
 }
 
