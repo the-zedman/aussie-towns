@@ -3,13 +3,13 @@ import Link from 'next/link'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | AussieTowns.info',
+  title: 'Privacy Policy - Data Protection | AussieTowns.info',
   description: 'Privacy policy for AussieTowns.info. Learn how we collect, use, and protect your personal information when you visit our Australian travel guide website.',
   alternates: {
     canonical: 'https://aussietowns.info/privacy',
   },
   openGraph: {
-    title: 'Privacy Policy | AussieTowns.info',
+    title: 'Privacy Policy - Data Protection | AussieTowns.info',
     description: 'Privacy policy for AussieTowns.info. Learn how we collect, use, and protect your personal information when you visit our Australian travel guide website.',
     url: 'https://aussietowns.info/privacy',
     type: 'website',

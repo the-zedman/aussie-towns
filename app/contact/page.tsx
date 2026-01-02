@@ -3,14 +3,14 @@ import Link from 'next/link'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | AussieTowns.info',
-  description: 'Get in touch with AussieTowns.info. Contact us for questions, suggestions, or to report issues about Australian regional towns and travel information.',
+  title: 'Contact Us - Get in Touch | AussieTowns.info',
+  description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information.',
   alternates: {
     canonical: 'https://aussietowns.info/contact',
   },
   openGraph: {
-    title: 'Contact Us | AussieTowns.info',
-    description: 'Get in touch with AussieTowns.info. Contact us for questions, suggestions, or to report issues about Australian regional towns and travel information.',
+    title: 'Contact Us - Get in Touch | AussieTowns.info',
+    description: 'Contact AussieTowns.info for questions, suggestions, or to report issues about Australian regional towns and travel information.',
     url: 'https://aussietowns.info/contact',
     type: 'website',
     images: [
