@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Discover Australia\'s Hidden Towns | AussieTowns.info',
-    description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, and road trip inspiration.',
+    description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, accommodation, and road trip inspiration.',
     url: 'https://aussietowns.info',
     type: 'website',
     images: [
