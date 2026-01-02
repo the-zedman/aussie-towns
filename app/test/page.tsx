@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Test Landing Page - AussieTowns.info Design',
-  description: 'Test page for designing the new primary landing page for AussieTowns.info - comprehensive travel guide for Australian regional towns.',
+  title: 'Test Landing Page - Aussie Towns Info Design',
+  description: 'Test page for designing the new primary landing page for Aussie Towns Info - comprehensive travel guide for Australian regional towns.',
   robots: {
     index: false,
     follow: false,
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     canonical: 'https://aussietowns.info/test',
   },
   openGraph: {
-    title: 'Test Landing Page - AussieTowns.info Design',
-    description: 'Test page for designing the new primary landing page for AussieTowns.info - comprehensive travel guide for Australian regional towns.',
+    title: 'Test Landing Page - Aussie Towns Info Design',
+    description: 'Test page for designing the new primary landing page for Aussie Towns Info - comprehensive travel guide for Australian regional towns.',
     url: 'https://aussietowns.info/test',
     siteName: 'AussieTowns.info',
     locale: 'en_AU',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         url: '/og_image.png',
         width: 1200,
         height: 630,
-        alt: 'AussieTowns.info - Test Landing Page',
+        alt: 'Aussie Towns Info - Test Landing Page',
       },
     ],
     // @ts-ignore - og:logo is not in Next.js types but is a valid Open Graph property
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function TestPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-amber-50">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         {/* Australian Flag Background Pattern */}
@@ -63,7 +63,7 @@ export default function TestPage() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-4 sm:mb-6">
-              <span className="text-primary">Aussie</span>Towns.info
+              <span className="text-primary">Aussie</span> Towns Info
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-gray-700 font-semibold mb-2 sm:mb-3">
               Your True Blue Guide to Australia's Hidden Gems
@@ -109,7 +109,7 @@ export default function TestPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="space-y-6">
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 sm:p-8 rounded-xl border-2 border-amber-200 shadow-lg">
+              <div className="bg-amber-50 p-6 sm:p-8 rounded-xl border-2 border-amber-200 shadow-lg">
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
                   <span className="text-3xl">🇦🇺</span>
                   <span>Our Mission</span>
@@ -122,7 +122,7 @@ export default function TestPage() {
               </div>
             </div>
             <div className="space-y-6">
-              <div className="bg-gradient-to-br from-sky-50 to-blue-50 p-6 sm:p-8 rounded-xl border-2 border-blue-200 shadow-lg">
+              <div className="bg-blue-50 p-6 sm:p-8 rounded-xl border-2 border-blue-200 shadow-lg">
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
                   <span className="text-3xl">🏕️</span>
                   <span>Family Friendly</span>
@@ -138,7 +138,7 @@ export default function TestPage() {
       </section>
 
       {/* What We Offer Section */}
-      <section id="explore" className="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-white to-amber-50">
+      <section id="explore" className="py-12 sm:py-16 lg:py-20 bg-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -175,58 +175,8 @@ export default function TestPage() {
         </div>
       </section>
 
-      {/* Values Section - Australiana Themes */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              The <span className="text-primary">Aussie</span> Spirit
-            </h2>
-            <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
-            <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto">
-              Modern Australiana theme highlighting and promoting all things Australian
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {[
-              { theme: 'Australian Made', icon: '🇦🇺', color: 'from-green-500 to-green-600' },
-              { theme: 'Eureka Stockade', icon: '⚡', color: 'from-yellow-500 to-orange-500' },
-              { theme: 'Fair Dinkum', icon: '🤝', color: 'from-blue-500 to-blue-600' },
-              { theme: 'Mateship', icon: '👥', color: 'from-red-500 to-red-600' },
-              { theme: 'Fair Go', icon: '⚖️', color: 'from-amber-500 to-amber-600' },
-              { theme: 'Laid-Back Attitude', icon: '😎', color: 'from-sky-500 to-sky-600' },
-              { theme: 'Connection to Land', icon: '🌳', color: 'from-emerald-500 to-emerald-600' },
-              { theme: 'Resourcefulness', icon: '🔧', color: 'from-gray-600 to-gray-700' },
-              { theme: 'Hard Yakka', icon: '💪', color: 'from-orange-600 to-red-600' },
-            ].map((item, index) => {
-              const colorClasses = {
-                'from-green-500 to-green-600': 'bg-gradient-to-br from-green-500 to-green-600',
-                'from-yellow-500 to-orange-500': 'bg-gradient-to-br from-yellow-500 to-orange-500',
-                'from-blue-500 to-blue-600': 'bg-gradient-to-br from-blue-500 to-blue-600',
-                'from-red-500 to-red-600': 'bg-gradient-to-br from-red-500 to-red-600',
-                'from-amber-500 to-amber-600': 'bg-gradient-to-br from-amber-500 to-amber-600',
-                'from-sky-500 to-sky-600': 'bg-gradient-to-br from-sky-500 to-sky-600',
-                'from-emerald-500 to-emerald-600': 'bg-gradient-to-br from-emerald-500 to-emerald-600',
-                'from-gray-600 to-gray-700': 'bg-gradient-to-br from-gray-600 to-gray-700',
-                'from-orange-600 to-red-600': 'bg-gradient-to-br from-orange-600 to-red-600',
-              };
-              return (
-                <div 
-                  key={index}
-                  className={`${colorClasses[item.color as keyof typeof colorClasses]} p-6 sm:p-8 rounded-xl text-white shadow-lg transform hover:scale-105 transition-all duration-300`}
-                >
-                  <div className="text-4xl sm:text-5xl mb-4">{item.icon}</div>
-                  <h3 className="text-xl sm:text-2xl font-bold mb-2">{item.theme}</h3>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Who It's For Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-amber-50 to-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -273,7 +223,7 @@ export default function TestPage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-r from-primary to-accent text-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 sm:mb-8">
             Ready to Explore?
