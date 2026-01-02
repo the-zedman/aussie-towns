@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 
 export const metadata: Metadata = {
   title: 'Discover Australia\'s Hidden Towns | AussieTowns.info',
-  description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, and road trip inspiration.',
+  description: 'Your ultimate guide to regional and small towns across Australia. Discover history, attractions, local businesses, accommodation, and road trip inspiration.',
   alternates: {
     canonical: 'https://aussietowns.info',
   },
